@@ -1,0 +1,41 @@
+:root {
+  --PrimaryColor: #00bfff;
+}
+
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navigation Bar */
+span {
+  color: var(--PrimaryColor);
+}
+header {
+  font-family: "Balsamiq Sans";
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border: black 0.1rem solid;
+  box-shadow: 0 0 20px 0 gray;
+}
+header li {
+  margin: 1rem;
+}
+header ul {
+  list-style-type: none;
+  margin: 0px;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  width: 90%;
+}
+.nav-left {
+  flex: 1 1 200px;
+}
