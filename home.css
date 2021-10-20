@@ -9,6 +9,9 @@ a {
   text-decoration: none;
   color: black;
 }
+ul {
+  list-style-type: none;
+}
 
 /* Navigation Bar */
 span {
@@ -16,20 +19,34 @@ span {
 }
 header {
   font-family: "Balsamiq Sans";
-  padding: 0rem 1rem;
+  padding: 0rem 0rem 0rem 1rem;
   display: flex;
-  align-items: center;
-  height: 50px;
-  border: black 0.1rem solid;
+  border-bottom: black 0.2rem solid;
   box-shadow: 0 0 20px 0 gray;
-}
-header li {
-  margin: 1rem;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
 }
 header ul {
-  list-style-type: none;
   margin: 0px;
   display: flex;
+  align-items: center;
+}
+header li {
+  margin: 1rem 0rem;
+  padding: 0rem 2rem;
+  height: 100%;
+}
+header li:hover {
+  background-color: var(--PrimaryColor);
+  transition: background-color 0.7ss;
+  cursor: pointer;
+  box-shadow: 0 0 20px 0 var(--PrimaryColor);
+  transition: box-shadow 2s;
+}
+header li:hover a {
+  color: white;
+  transition: color 0.7s;
 }
 
 nav {
