@@ -1,0 +1,49 @@
+:root {
+  --PrimaryColor: rgb(0, 180, 250);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Balsamiq Sans";
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.1rem;
+}
+button {
+  background-color: var(--PrimaryColor);
+  border: black 0.1rem grey;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 200, 255);
+  box-shadow: 0 0 50px 0 black;
+  transition: 0.4s ease-in-out;
+  transition-property: box-shadow, background-color;
+}
+button a:hover {
+  color: black;
+  transition: color 0.4s ease-in-out;
+}

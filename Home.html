@@ -10,50 +10,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="home.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/css/Standard.css" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/home.css" />
     <title>ProgrammingSchool</title>
   </head>
   <body>
-    <header>
-      <a href="/Home.html" class="Logo">Programming<span>School</span></a>
-      <nav>
-        <ul class="nav-left">
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-        </ul>
-
-        <ul class="nav-right">
-          <li><a href="#">Roadmap</a></li>
-        </ul>
-      </nav>
-    </header>
+    <!--Navigation bar-->
+    <div id="nav"></div>
 
     <section class="Hero">
-      <div class="container">
-        <div class="Hpart1">
-          Learn Frontend development for FREE! <br />
-          {photo}with Saloua
-        </div>
-        <p>Course starting Level: Beginner</p>
-        <div>
+      <div class="Hero1">
+        <h1>Learn Frontend development for FREE! <br /></h1>
+        <h2>Course starting Level: Beginner</h2>
+        <h3>
           Start by learning basic HTML and css <br />
           Follow it up with javascript <br />
-          and learn more advanced stuff after! <br />br
-        </div>
+          and learn more advanced stuff after! <br />
+        </h3>
       </div>
-
-      Follow the Roadmap to see how long it will take to get that frontend job!
-      <br />
-      <button><a href="#">Start Now!</a></button>
+      <div class="Hero2">
+        <h2>
+          Follow the Roadmap to see how long it will take to get that frontend
+          job!
+        </h2>
+        <button><a href="#">Start Now!</a></button>
+      </div>
     </section>
-
     <footer>
       <ul>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/Contact.html">Contact</a></li>
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">Terms</a></li>
       </ul>
     </footer>
+
+    <script>
+      $(function () {
+        $("#nav").load("nav.html");
+      });
+    </script>
   </body>
 </html>

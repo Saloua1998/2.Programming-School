@@ -1,0 +1,42 @@
+/* Hero */
+.Hero {
+  height: 89vh;
+  text-align: center;
+  padding-top: 5vh;
+  font-size: 1.2rem;
+  color: white;
+  align-self: center;
+}
+.Hero1 {
+  padding: 1rem;
+}
+/* Footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  border-top: black 0.2rem solid;
+  background-color: white;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer li {
+  padding: 0rem 2rem;
+  height: 100%;
+}
+footer li:hover {
+  cursor: pointer;
+}
+footer li:hover a {
+  color: var(--PrimaryColor);
+  transition: color 0.3s ease-in-out;
+}

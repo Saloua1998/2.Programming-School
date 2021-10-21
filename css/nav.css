@@ -1,0 +1,41 @@
+/* Navigation Bar */
+span {
+  color: var(--PrimaryColor);
+}
+header {
+  padding: 0rem 0rem 0rem 1rem;
+  display: flex;
+  border: black 0.2rem solid;
+  box-shadow: 0 0 20px 0 gray;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  background-color: white;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header li {
+  padding: 0rem 2rem;
+  height: 100%;
+}
+header li:hover {
+  cursor: pointer;
+  background-color: var(--PrimaryColor);
+  box-shadow: 0 0 20px 0 var(--PrimaryColor);
+  transition: 0.4s ease-in-out;
+  transition-property: box-shadow, background-color;
+}
+header li:hover a {
+  color: white;
+  transition: color 0.4s ease-in-out;
+}
+
+nav {
+  display: flex;
+  width: 100vw;
+}
+.nav-left {
+  flex: 1 1 200px;
+}

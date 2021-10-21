@@ -23,4 +23,4 @@ Pages:
     - CheatSheet
 - Contact Page
 
-Hours Spend(2H)
+Hours Spend(3H)
