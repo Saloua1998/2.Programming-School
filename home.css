@@ -4,6 +4,7 @@
 
 body {
   margin: 0px;
+  font-family: "Balsamiq Sans";
 }
 a {
   text-decoration: none;
@@ -11,6 +12,7 @@ a {
 }
 ul {
   list-style-type: none;
+  margin: 0px;
 }
 
 /* Navigation Bar */
@@ -18,7 +20,6 @@ span {
   color: var(--PrimaryColor);
 }
 header {
-  font-family: "Balsamiq Sans";
   padding: 0rem 0rem 0rem 1rem;
   display: flex;
   border-bottom: black 0.2rem solid;
@@ -28,31 +29,65 @@ header {
   vertical-align: middle;
 }
 header ul {
-  margin: 0px;
   display: flex;
   align-items: center;
 }
 header li {
-  margin: 1rem 0rem;
   padding: 0rem 2rem;
   height: 100%;
 }
 header li:hover {
-  background-color: var(--PrimaryColor);
-  transition: background-color 0.7ss;
   cursor: pointer;
+  background-color: var(--PrimaryColor);
   box-shadow: 0 0 20px 0 var(--PrimaryColor);
-  transition: box-shadow 2s;
+  transition: 0.4s ease-in-out;
+  transition-property: box-shadow, background-color;
 }
 header li:hover a {
   color: white;
-  transition: color 0.7s;
+  transition: color 0.4s ease-in-out;
 }
 
 nav {
   display: flex;
-  width: 90%;
+  width: 100vw;
 }
 .nav-left {
   flex: 1 1 200px;
+}
+
+/* Hero */
+.Hero {
+  height: 88vh;
+  background-color: blueviolet;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  border-top: black 0.2rem solid;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer li {
+  padding: 0rem 2rem;
+  height: 100%;
+}
+footer li:hover {
+  cursor: pointer;
+}
+footer li:hover a {
+  color: var(--PrimaryColor);
+  transition: color 0.3s ease-in-out;
 }
