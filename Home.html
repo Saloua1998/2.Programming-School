@@ -13,11 +13,11 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="/css/Standard.css" />
     <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/home.css" />
     <title>ProgrammingSchool</title>
   </head>
   <body>
-    <!--Navigation bar-->
     <div id="nav"></div>
 
     <section class="Hero">
@@ -38,17 +38,11 @@
         <button><a href="#">Start Now!</a></button>
       </div>
     </section>
-    <footer>
-      <ul>
-        <li><a href="/Contact.html">Contact</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms</a></li>
-      </ul>
-    </footer>
-
+    <div id="footer"></div>
     <script>
       $(function () {
         $("#nav").load("nav.html");
+        $("#footer").load("Footer.html");
       });
     </script>
   </body>
