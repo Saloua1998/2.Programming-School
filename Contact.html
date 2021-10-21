@@ -1,3 +1,9 @@
+<!-- default value Email -->
+<!-- Skills Checkboxes HTML, CSS, Javascript -->
+<!-- X Years Experience -->
+<!-- Skills boxes horizontal -->
+<!-- Style Submit Btn -->
+<!-- Style inputfields: border color: blue hover-> shadow-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,13 +18,45 @@
     <link rel="stylesheet" href="/css/Standard.css" />
     <link rel="stylesheet" href="/css/nav.css" />
     <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
     <title>Contact</title>
   </head>
   <body>
     <!--Navigation bar-->
     <div id="nav"></div>
 
-    <section></section>
+    <section style="margin-top: 1rem">
+      <h2>Contact us!</h2>
+      <form action="">
+        <label for="Fname">First Name</label>
+        <input type="text" name="First Name" id="Fname" />
+        <label for="Fname">Last Name</label>
+        <input type="text" name="Last Name" id="" />
+        <label for="Fname">Email</label>
+        <input type="email" name="Email" id="" value="JohnDoe@hotmail.com" />
+        <input type="submit" value="Send" class="Submitbtn" />
+      </form>
+    </section>
+    <section>
+      <h2>Start your own Course!</h2>
+      <form action="mailto:saloua1998@live.nl" method=”POST”
+      enctype=”multipart/form-data” name=”EmailForm”>
+        <label for="Fname">First Name</label>
+        <input type="text" name="First Name" id="Fname" />
+        <label for="Lname">Last Name</label>
+        <input type="text" name="Last Name" id="Lname" />
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="" value="JohnDoe@hotmail.com" />
+        <label for="">Telephone Number</label>
+        <input type="tel" name="" id="" />
+        <label for="">Date of Birth</label>
+        <input type="date" name="" id="" />
+        <label for="">Skills</label>
+        <input type="checkbox" name="" value="HTML" id="" />
+        <input type="submit" value="Send" class="Submitbtn" />
+      </form>
+    </section>
+
     <div id="footer"></div>
     <script>
       $(function () {

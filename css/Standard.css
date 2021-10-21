@@ -47,3 +47,7 @@ button a:hover {
   color: black;
   transition: color 0.4s ease-in-out;
 }
+label {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
