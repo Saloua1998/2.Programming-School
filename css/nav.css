@@ -3,11 +3,12 @@ span {
   color: var(--PrimaryColor);
 }
 header {
+  position: absolute;
+  height: 40px;
   padding: 0rem 0rem 0rem 1rem;
   display: flex;
   border: black 0.2rem solid;
   box-shadow: 0 0 20px 0 gray;
-  height: 40px;
   line-height: 40px;
   vertical-align: middle;
   background-color: white;

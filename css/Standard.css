@@ -6,9 +6,17 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Balsamiq Sans";
+}
+.Page {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  width: 100vw;
+  padding-bottom: 1rem;
+  overflow-y: auto;
   background-image: url("/images/background.jpg");
   background-size: cover;
-  overflow: hidden;
+  background-repeat: no-repeat;
 }
 a {
   text-decoration: none;
@@ -46,8 +54,4 @@ button:hover {
 button a:hover {
   color: black;
   transition: color 0.4s ease-in-out;
-}
-label {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
 }

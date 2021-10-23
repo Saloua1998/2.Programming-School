@@ -23,4 +23,10 @@ Pages:
     - CheatSheet
 - Contact Page
 
-Hours Spend(4H)
+Things Learned:
+
+- How to make a nav bar
+- How to make a footer
+- How to make the content the exact height of the screen height-footer height-nav height
+
+Hours Spend(5H)

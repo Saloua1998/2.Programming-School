@@ -1,9 +1,8 @@
 /* Footer */
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: absolute;
   width: 100vw;
+  bottom: 0;
   height: 40px;
   line-height: 40px;
   vertical-align: middle;
