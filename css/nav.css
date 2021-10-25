@@ -2,6 +2,19 @@
 span {
   color: var(--PrimaryColor);
 }
+header a {
+  color: black;
+  width: 15rem;
+}
+header a:hover {
+  font-size: 1.1rem;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+header a:hover span {
+  font-size: 1.1rem;
+  transition: 0.5s ease-in-out;
+}
 header {
   position: absolute;
   top: 0;
@@ -43,4 +56,7 @@ nav {
 }
 .nav-left {
   flex: 1 1 0px;
+}
+nav a {
+  color: black;
 }
