@@ -31,4 +31,4 @@ Things Learned:
 - Learned about the calc() attribute!!! (Life Saver)
   - I used it to make the wirdth ofthe nav and footer
 
-Hours Spend(7H)
+Hours Spend(8.5H)

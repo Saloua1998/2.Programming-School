@@ -2,17 +2,18 @@
 span {
   color: var(--PrimaryColor);
 }
-header a {
+.Logo {
+  padding-left: 1rem;
   color: black;
   width: 15rem;
 }
-header a:hover {
-  font-size: 1.1rem;
+.Logo:hover {
+  font-size: 1.05rem;
   color: black;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-header a:hover span {
-  font-size: 1.1rem;
+.Logo:hover span {
+  font-size: 1.05rem;
   transition: 0.5s ease-in-out;
 }
 header {
