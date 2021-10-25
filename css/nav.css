@@ -4,15 +4,19 @@ span {
 }
 header {
   position: absolute;
+  top: 0;
+  left: 0;
   height: 40px;
-  padding: 0rem 0rem 0rem 1rem;
+  width: calc(100vw - 6px);
+  margin: 0px;
+  border: black 3px solid;
   display: flex;
-  border: black 0.2rem solid;
   box-shadow: 0 0 20px 0 gray;
   line-height: 40px;
   vertical-align: middle;
   background-color: white;
 }
+
 header ul {
   display: flex;
   align-items: center;
@@ -38,5 +42,5 @@ nav {
   width: 100vw;
 }
 .nav-left {
-  flex: 1 1 200px;
+  flex: 1 1 0px;
 }

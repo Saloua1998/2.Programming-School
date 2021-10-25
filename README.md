@@ -28,5 +28,7 @@ Things Learned:
 - How to make a nav bar
 - How to make a footer
 - How to make the content the exact height of the screen height-footer height-nav height
+- Learned about the calc() attribute!!! (Life Saver)
+  - I used it to make the wirdth ofthe nav and footer
 
-Hours Spend(5H)
+Hours Spend(7H)
