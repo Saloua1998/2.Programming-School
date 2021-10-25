@@ -24,6 +24,9 @@ footer li {
 footer li:hover {
   cursor: pointer;
 }
+footer a {
+  color: black;
+}
 footer li:hover a {
   color: var(--PrimaryColor);
   transition: color 0.3s ease-in-out;
